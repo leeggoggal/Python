@@ -1,0 +1,18 @@
+#-*- coding:utf-8 -*-
+
+__name__ = "이꼬깔"
+
+problem = "해당문제 카이사르 암호문"
+length = len(problem)
+for k in range(length):
+    try:
+        decode = ord(problem[k])+2
+        if decode >= ord("z"):
+            rep_decode = decode-26
+            print "".join(unichr(rep_decode)),
+        elif decode <= ord("0"):
+            rep_decode = decode - 2
+            print "".join(unichr(rep_decode)),
+        else:
+            print "".join(unichr(decode)),
+    except: pass
