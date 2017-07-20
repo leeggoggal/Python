@@ -16,3 +16,5 @@ for k in range(length):  #카이사르 암호문의 길이 수만큼 for문 수�
         else:
             print "".join(unichr(decode)), #아스키값들을 알파벳으로 출력
     except: pass
+    
+   
