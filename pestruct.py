@@ -1,4 +1,7 @@
 #-- coding:utf-8 --
+
+__name__ = "leeggoggal"
+
 import sys,struct
 with open("#input_file_name","rb") as exe:
     pe_hex = exe.read().encode('hex').upper()
