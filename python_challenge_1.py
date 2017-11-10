@@ -1,5 +1,5 @@
 # #-*- coding:utf-8 -*-
-__name__ = "이꼬깔"
+__name__ = "leeggoggal"
 
 problem = "해당문제 카이사르 암호문"
 length = len(problem)    #len함수를 이용해 카이사르 암호문의 길이를 구하고 length 변수에 저장
