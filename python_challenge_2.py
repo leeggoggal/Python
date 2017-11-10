@@ -1,7 +1,7 @@
 #-*- coding:utf8 -*-
 import re,urllib  #re,urllib 라이브러리 import
 
-__name__ = "이꼬깔"
+__name__ = "leeggoggal"
 
 def main_url(url):   #main_url 함수 정의
     u_open=urllib.urlopen(url) #url 오픈
