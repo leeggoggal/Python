@@ -1,3 +1,6 @@
+
+__name__ = "leeggoggal"
+
 key = [hex(0x10),hex(0x20),hex(0x30)]
 Serial= "5B134977135E7D13"
 index = 0
